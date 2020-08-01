@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+		width: 1200px; 
+		margin: 0 auto; 
+		font-family: ARIAL;	
+		}
+/*table_cell_properties*/
+		.t_cell{
+		outline: 2px solid black;	
+		}
+
+		.t_cell_400{
+			background: yellow;
+			outline: 2px solid black;
+			width: 400px;
+			display: table-cell;
+		}
+
+		.t_cell_800{
+			background: green;
+			outline: 2px solid black;
+			width: 800px;
+			display: table-cell;
+		}
+
+		.t_cell_200{
+			background: green;
+			outline: 2px solid black;
+			width: 200px;
+			display: table-cell;
+		}
+/*in_blocks_properties*/
+
+		.in_block{
+		outline: 2px solid black;	
+		}
+
+		.in_block_0{
+		outline: 2px solid black;	
+		font-size: 0px;
+		}
+
+		.in_block_400{
+			background: yellow;
+			outline: 2px solid black;
+			width: 400px;
+			display: inline-block;
+			font-size: 14px ;
+			vertical-align: top;
+		}
+
+		.in_block_800{
+			background: green;
+			outline: 2px solid black;
+			width: 800px;
+			display: inline-block;
+			font-size: 14px ;
+			vertical-align: top;
+		}
+
+		.in_block_200{
+			background: green;
+			outline: 2px solid black;
+			width: 200px;
+			display: inline-block;
+			font-size: 14px ;
+			vertical-align: top;
+		}
+
+/*float_properties*/
+		
+		.float{
+		outline: 2px solid black;	
+		
+		}
+
+		.float_400{
+			background: yellow;
+			outline: 2px solid black;
+			width: 400px;
+			float: left;
+		}
+
+		.float_800{
+			background: green;
+			outline: 2px solid black;
+			width: 800px;
+			float: left;
+			
+		}
+
+		.float_200{
+			background: green;
+			outline: 2px solid black;
+			width: 200px;
+			float: left;
+			
+		}
+		
+		.clr:after{
+			content="";
+			clear:both;
+			display:block;
+		}
+/*flexbox properties*/
+	.flex_container{
+		display: flex;
+		outline: 2px solid black;
+	}
+	.flex{
+		display: flex;
+		outline: 2px solid black;
+
+	}
+	.flex400{
+		flex:0 0 400px;
+		background: green;
+		outline: 2px solid black;
+	}
+	.flex200{
+		flex:0 0 200px;
+		background: yellow;
+		outline: 2px solid black;
+	}
+	.flex800{
+		flex:0 0 800px;
+		background: brown;
+		outline: 2px solid black;
+	}
+	.flex_column{
+		background: grey;
+		outline: 2px solid black;
+	}
+	
+
+
